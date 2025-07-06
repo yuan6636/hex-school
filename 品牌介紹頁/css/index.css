@@ -1,0 +1,164 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Global */
+body {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  font-family: Noto Sans TC, sans-serif;
+  color: #212529;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-green-600 {
+  color: #57A203;
+}
+
+.section-border {
+  border-bottom: 1px solid #DEE2E6;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.py-64 {
+  padding: 64px 0;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* Header */
+.hero-section {
+  padding: 151px 0;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  text-align: center;
+}
+
+/* Hero section */
+.hero-title {
+  color: #FFFFFF;
+}
+
+.brand-container {
+  max-width: 856px;
+  margin: 0 auto 48px auto;
+}
+
+.brand-container:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Blockquote */
+.blockquote {
+  padding: 32px;
+  border-radius: 4px;
+  background-color: #F5FEE7;
+  text-align: center;
+}
+
+/* Brand introduction */
+.brand-intro-container {
+  max-width: 1076px;
+  margin: 0 auto 48px auto;
+}
+
+/* Brand history */
+.brand-history-list .list-item::before {
+  content: "•";
+  padding: 4px;
+}
+
+/* Brand concept */
+.brand-concept-list .list-item {
+  padding: 0 12px;
+  border-left: 3px solid #DEE2E6;
+}
+
+/* Brand story */
+.brand-story-link {
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
+  color: #57A203;
+}
+
+.bi-arrow-up-right {
+  display: inline-block;
+  padding: 2.5px;
+}
+
+.brand-story-link .link-name {
+  padding-bottom: 4px;
+  font-weight: 500;
+  border-bottom: 1px solid #57A203;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #F8F9FA;
+  font-size: 14px;
+  color: #6C757D;
+  text-align: center;
+}
+
+.copyright {
+  width: 1296px;
+  margin: 0 auto;
+}
