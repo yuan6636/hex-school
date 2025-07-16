@@ -1,0 +1,177 @@
+/* Spacing */
+.me-24 {
+  margin-right: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.py-9 {
+  padding: 9px 0;
+}
+
+.py-48 {
+  padding: 48px 0;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+/* Nav */
+.logo {
+  padding: 8px 12px;
+  font-family: "Mina", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04rem;
+  position: relative;
+  z-index: 1;
+}
+
+.logo::after {
+  content: "";
+  border: 4px solid var(--primary-300);
+  border-radius: 50%;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  z-index: -1;
+}
+
+/* Main */
+.product-img-list {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.product-img-item {
+  max-width: 369px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  margin: 0 12px;
+  font-weight: 700;
+  color: var(--neutral-300);
+}
+
+.breadcrumb-item {
+  display: flex;
+}
+
+.breadcrumb-link {
+  color: var(--neutral-600);
+}
+
+.price h2 {
+  color: var(--primary-400);
+}
+
+.price small {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: var(--neutral-500);
+}
+
+.color-list {
+  gap: 8px;
+}
+
+.color-item {
+  max-width: 64px;
+  text-align: center;
+  color: var(--neutral-600);
+}
+
+.size-btn-list {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.size-btn {
+  padding: 12px 24px;
+  border: 1px solid var(--neutral-300);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.size-btn:hover {
+  border-color: var(--neutral-600);
+}
+
+.size-btn:active {
+  border-color: var(--neutral-900);
+}
+
+.size-btn.active {
+  border-color: var(--neutral-900);
+}
+
+.size-btn.disabled {
+  opacity: 0.4;
+}
+
+.product-size small {
+  font-size: 14px;
+  color: var(--danger-300);
+}
+
+.btn-wrapper button {
+  flex: 1;
+  text-align: center;
+}
+
+.btn-wrapper button:hover {
+  background-color: var(--neutral-900);
+  color: var(--neutral-white);
+}
+
+.cta-btn.active {
+  background-color: var(--neutral-900);
+  color: var(--neutral-white);
+}
+
+.product-detail div {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.detail-item p:not(:first-of-type) {
+  color: var(--neutral-600);
+}
+
+/* CTA */
+.cta-banner {
+  background-color: var(--primary-200);
+}
+
+.cta-banner button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: var(--neutral-900);
+  color: var(--neutral-white);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--neutral-100);
+}
+
+.copyright {
+  border-top: 1px solid var(--neutral-300);
+  text-align: center;
+  color: var(--neutral-600);
+}

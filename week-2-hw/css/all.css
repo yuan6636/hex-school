@@ -1,0 +1,247 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* Color */
+:root {
+  --neutral-white: #FFFFFF;
+  --neutral-100: #F8F9FA;
+  --neutral-300: #DEE2E6;
+  --neutral-500: #ADB5BD;
+  --neutral-600: #6C757D;
+  --neutral-900: #212529;
+  --primary-200: #E8FEC5;
+  --primary-300: #C0FA73;
+  --primary-400: #57A203;
+  --danger-300: #D74F4F;
+}
+
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  font-size: 16px;
+  color: var(--neutral-900);
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.label-md {
+  font-weight: 500;
+}
+
+.text-neutral-600 {
+  color: var(--neutral-600);
+}
+
+.text-primary-400 {
+  color: var(--primary-400);
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+/* Spacing */
+.p-12 {
+  padding: 12px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.py-7 {
+  padding: 7px 0;
+}
+
+.py-12 {
+  padding: 12px 0;
+}
+
+.py-16 {
+  padding: 16px 0;
+}
+
+.py-24 {
+  padding: 24px 0;
+}
+
+.py-64 {
+  padding: 64px 0;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.me-8 {
+  margin-right: 8px;
+}
+
+.me-12 {
+  margin-right: 12px;
+}
+
+.me-24 {
+  margin-right: 24px;
+}
+
+.me-40 {
+  margin-right: 40px;
+}
+
+.me-48 {
+  margin-right: 48px;
+}
+
+/* Flex */
+.d-flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.col {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 7);
+}
+
+.col-10 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 10);
+}
+
+.cta-btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.btn-outlined {
+  border: 1px solid var(--neutral-900);
+}

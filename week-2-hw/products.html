@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>產品列表頁</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/products.css">
+</head>
+<body>
+  <nav class="container d-flex justify-content-between align-items-center py-16">
+    <ul class="d-flex align-items-center">
+      <li class="logo me-48"><a href="./products.html">URBNSTEP</a></li>
+      <li class="me-40 label-md py-12"><a href="#">商品列表</a></li>
+      <li class="label-md py-12"><a href="#">品牌故事</a></li>
+    </ul>
+    <a class="p-12" href="#"><i class="bi bi-person"></i></a>
+  </nav>
+  <main class="container py-32">
+    <!-- Breadcrumb -->
+    <nav class="mb-24">
+      <ol class="d-flex label-md">
+        <li class="breadcrumb-item text-neutral-600"><a href="#">首頁</a></li>
+        <li class="breadcrumb-item">所有商品</li>
+      </ol>
+    </nav>
+    <h1 class="h3 mb-24 py-7">所有商品</h1>
+    <div class="row">
+      <!-- Category -->
+      <nav class="col-2">
+        <ul class="pe-24 label-md">
+          <li class="py-12 mb-16 text-primary-400"><a href="#">所有商品</a></li>
+          <li class="py-12 mb-16"><a href="#">慢跑鞋</a></li>
+          <li class="py-12 mb-16"><a href="#">滑板鞋</a></li>
+          <li class="py-12 mb-16"><a href="#">厚底鞋</a></li>
+          <li class="py-12"><a href="#">限定 / 聯名企劃</a></li>
+        </ul>
+      </nav>
+      <!-- Product-list -->
+      <div class="col-10">
+        <ul class="row mb-48 product-card-list">
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product.png" alt="產品圖片">
+              <p class="mb-4 h6">PLATFORM 404</p>
+              <p class="label-md">NT$2,600</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-1.png" alt="產品圖片">
+              <p class="mb-4 h6">PLATFORM 404</p>
+              <p class="label-md">NT$2,600</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-2.png" alt="產品圖片">
+              <p class="mb-4 h6">VM001</p>
+              <p class="label-md">NT$2,600</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-3.png" alt="產品圖片">
+              <p class="mb-4 h6">Melty Kiss</p>
+              <p class="label-md">NT$4,000</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-4.png" alt="產品圖片">
+              <p class="mb-4 h6">BOOMBLOK</p>
+              <p class="label-md">NT$3,200</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-5.png" alt="產品圖片">
+              <p class="mb-4 h6">BOOMBLOK</p>
+              <p class="label-md">NT$3,200</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-6.png" alt="產品圖片">
+              <p class="mb-4 h6">R:UNER</p>
+              <p class="label-md">NT$4,000</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-7.png" alt="產品圖片">
+              <p class="mb-4 h6">Sugar Snap</p>
+              <p class="label-md">NT$4,000</p>
+            </a>
+          </li>
+          <li class="col-4">
+            <a href="#">
+              <img class="mb-12" src="./images/product-8.png" alt="產品圖片">
+              <p class="mb-4 h6">Neofoam</p>
+              <p class="label-md">NT$4,000</p>
+            </a>
+          </li>
+        </ul>
+        <!-- Pagination -->
+        <ul class="pagination d-flex justify-content-center align-items-center">
+          <li class="me-12 disabled">
+            <button><i class="bi bi-chevron-left"></i></button>
+          </li>
+          <li class="me-8 active page-button label-md">
+            <button>1</button>
+          </li>
+          <li class="me-8 page-button">
+            <button>2</button>
+          </li>
+          <li class="me-8 page-button">
+            <button>3</button>
+          </li>
+          <li class="me-8 page-button">...</li>
+          <li class="me-12 page-button">
+            <button>10</button>
+          </li>
+          <li><button><i class="bi bi-chevron-right"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div class="pt-48">
+    <div class="cta-banner d-flex justify-content-center align-items-center py-24">
+      <p class="h4 me-24">加入會員取得 9 折優惠</p>
+      <button class="cta-btn label-md">馬上註冊</button>
+    </div>
+  </div>
+  <footer class="footer py-64">
+    <nav class="container mb-24">
+      <ul class="d-flex align-items-center justify-content-between">
+        <li class="logo"><a href="./products.html">URBNSTEP</a></li>
+        <div class="d-flex">
+          <li class="me-40 label-md py-12"><a href="#">商品列表</a></li>
+          <li class="label-md py-12"><a href="#">品牌故事</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="container copyright pt-32">
+      <p class="mb-4 text-small">Copyright ©2025 URBNSTYLE</p>
+      <p class="text-small">All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
