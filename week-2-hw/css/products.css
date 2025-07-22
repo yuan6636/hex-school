@@ -40,6 +40,11 @@
   z-index: -1;
 }
 
+.menu-list li:not(.logo):hover {
+  background-color: var(--neutral-900);
+  color: var(--neutral-white);
+}
+
 /* Main */
 .breadcrumb-item + .breadcrumb-item::before {
   content:"/";
@@ -51,6 +56,15 @@
 
 .breadcrumb-item {
   display: flex;
+}
+
+.breadcrumb-link:hover {
+  background-color: var(--neutral-600);
+  color: var(--neutral-white);
+}
+
+.category-list a:hover {
+  color: var(--primary-400);
 }
 
 .product-card-list {

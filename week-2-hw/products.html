@@ -11,18 +11,20 @@
 </head>
 <body>
   <nav class="container d-flex justify-content-between align-items-center py-16">
-    <ul class="d-flex align-items-center">
-      <li class="logo me-48"><a href="./products.html">URBNSTEP</a></li>
-      <li class="me-40 label-md py-12"><a href="#">商品列表</a></li>
-      <li class="label-md py-12"><a href="#">品牌故事</a></li>
-    </ul>
+    <div class="menu-list">
+      <ul class="d-flex align-items-center">
+        <li class="logo me-48"><a href="./products.html">URBNSTEP</a></li>
+        <li class="me-40 label-md py-12"><a href="#">商品列表</a></li>
+        <li class="label-md py-12"><a href="#">品牌故事</a></li>
+      </ul>
+    </div>
     <a class="p-12" href="#"><i class="bi bi-person"></i></a>
   </nav>
   <main class="container py-32">
     <!-- Breadcrumb -->
     <nav class="mb-24">
       <ol class="d-flex label-md">
-        <li class="breadcrumb-item text-neutral-600"><a href="#">首頁</a></li>
+        <li class="breadcrumb-item text-neutral-600"><a class="breadcrumb-link" href="#">首頁</a></li>
         <li class="breadcrumb-item">所有商品</li>
       </ol>
     </nav>
@@ -30,7 +32,7 @@
     <div class="row">
       <!-- Category -->
       <nav class="col-2">
-        <ul class="pe-24 label-md">
+        <ul class="pe-24 label-md category-list">
           <li class="py-12 mb-16 text-primary-400"><a href="#">所有商品</a></li>
           <li class="py-12 mb-16"><a href="#">慢跑鞋</a></li>
           <li class="py-12 mb-16"><a href="#">滑板鞋</a></li>
@@ -138,9 +140,11 @@
     <nav class="container mb-24">
       <ul class="d-flex align-items-center justify-content-between">
         <li class="logo"><a href="./products.html">URBNSTEP</a></li>
-        <div class="d-flex">
-          <li class="me-40 label-md py-12"><a href="#">商品列表</a></li>
-          <li class="label-md py-12"><a href="#">品牌故事</a></li>
+        <div class="menu-list">
+          <div class="d-flex">
+            <li class="me-40 label-md py-12"><a href="#">商品列表</a></li>
+            <li class="label-md py-12"><a href="#">品牌故事</a></li>
+          </div>
         </div>
       </ul>
     </nav>

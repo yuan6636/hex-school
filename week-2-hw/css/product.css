@@ -52,6 +52,11 @@
   z-index: -1;
 }
 
+.menu-list li:not(.logo):hover {
+  background-color: var(--neutral-900);
+  color: var(--neutral-white);
+}
+
 /* Main */
 .product-img-list {
   flex-wrap: wrap;
@@ -75,6 +80,11 @@
 
 .breadcrumb-link {
   color: var(--neutral-600);
+}
+
+.breadcrumb-link:hover {
+  background-color: var(--neutral-600);
+  color: var(--neutral-white);
 }
 
 .price h2 {
