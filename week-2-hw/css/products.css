@@ -40,7 +40,7 @@
   z-index: -1;
 }
 
-.menu-list li:not(.logo):hover {
+.menu-list li:hover {
   background-color: var(--neutral-900);
   color: var(--neutral-white);
 }
