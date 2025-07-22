@@ -109,7 +109,7 @@
   text-align: center;
 }
 
-.size-btn:hover {
+.size-btn:not(.disabled):hover {
   border-color: var(--neutral-600);
 }
 

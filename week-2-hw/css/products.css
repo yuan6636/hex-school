@@ -57,7 +57,8 @@
   row-gap: 48px;
 }
 
-.pagination li:hover {
+.pagination li:hover,
+.bi-chevron-right:hover {
   background-color: var(--neutral-100);
 }
 
