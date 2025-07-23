@@ -1,0 +1,173 @@
+/* Layout */
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.me-8 {
+  margin-right: 8px;
+}
+
+.me-12 {
+  margin-right: 12px;
+}
+
+.me-20 {
+  margin-right: 20px;
+}
+
+.me-24 {
+  margin-right: 24px;
+}
+
+.me-40 {
+  margin-right: 40px;
+}
+
+.me-48 {
+  margin-right: 48px;
+}
+
+.mx-12 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.pe-24 {
+  padding-right: 24px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-16 {
+  padding-top: 16px;  
+  padding-bottom: 16px;
+}
+
+.py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.py-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.py-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.col {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 7);
+}
+
+.col-10 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% / 12 * 10);
+}

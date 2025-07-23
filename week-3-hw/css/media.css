@@ -1,0 +1,183 @@
+@media (max-width: 768px) {
+  .h3-md {
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .h4-md {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .h5-md {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .h6-md {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .px-md-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .py-md-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .py-md-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .pt-md-24 {
+    padding-top: 24px;
+  }
+
+  .pb-md-32 {
+    padding-bottom: 32px;
+  }
+
+  .mb-md-0 {
+    margin-bottom: 0;
+  }
+
+  .mb-md-4 {
+    margin-bottom: 4px;
+  }
+
+  .mb-md-8 {
+    margin-bottom: 8px;
+  }
+
+  .mb-md-12 {
+    margin-bottom: 12px;
+  }
+
+  .mb-md-16 {
+    margin-bottom: 16px;
+  }
+
+  .mb-md-24 {
+    margin-bottom: 24px;
+  }
+
+  .mb-md-32 {
+    margin-bottom: 32px;
+  }
+
+  .me-md-8 {
+    margin-right: 8px;
+  }
+
+  .me-md-16 {
+    margin-right: 16px;
+  }
+
+  .d-md-none {
+    display: none;
+  }
+
+  .d-md-block {
+    display: block;
+  }
+
+  .btn-md {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .h3-sm {
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .h4-sm {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .h5-sm {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .h6-sm {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .px-sm-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .px-sm-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .py-sm-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .py-sm-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .py-sm-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .pt-sm-24 {
+    padding-top: 24px;
+  }
+
+  .pb-sm-32 {
+    padding-bottom: 32px;
+  }
+
+  .mb-sm-4 {
+    margin-bottom: 4px;
+  }
+
+  .mb-sm-12 {
+    margin-bottom: 12px;
+  }
+
+  .mb-sm-16 {
+    margin-bottom: 16px;
+  }
+
+  .mb-sm-32 {
+    margin-bottom: 32px;
+  }
+
+  .me-sm-8 {
+    margin-right: 8px;
+  }
+
+  .me-sm-16 {
+    margin-right: 16px;
+  }
+
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
+  .btn-sm {
+    padding: 8px 16px;
+  }
+}

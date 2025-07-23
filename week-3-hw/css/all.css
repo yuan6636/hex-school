@@ -1,0 +1,8 @@
+/* Outside resources */
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+@import "./variable.css";
+@import "./global.css";
+@import "./component.css";
+@import "./layout.css";
+@import "./media.css";
