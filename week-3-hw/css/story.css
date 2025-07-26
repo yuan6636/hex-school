@@ -113,6 +113,11 @@
     padding: 87px 0;
   }
 
+  .quote {
+    padding: 24px;
+    text-align: left;
+  }
+
   .brand-img {
     max-width: 100%;
     margin-left: 0;
@@ -122,10 +127,6 @@
 }
 
 @media (max-width: 576px) {
-  .quote {
-    padding: 24px;
-  }
-
   .footer-nav .logo {
     margin-bottom: 8px;
   }
