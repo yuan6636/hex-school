@@ -33,8 +33,6 @@ export default defineConfig({
   ],
   server: {
     // 啟動 server 時預設開啟的頁面
-    host: true,
-    port: 3000,
     open: 'pages/index.html',
   },
   build: {
